@@ -70,4 +70,7 @@ fun main() {
     // Object initialization by constructor
     var s4 = Student(5, "Janvi", "SE")
     s4.showDetail()
+
+    var s5 = Student()
+    s5.name = "abc"
 }
